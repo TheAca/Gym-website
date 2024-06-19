@@ -1,0 +1,89 @@
+.Reasons {
+  padding: 0 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.reasons-left {
+  flex: 1 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  grid-auto-rows: 1fr;
+}
+
+.reasons-left > img {
+  object-fit: cover;
+}
+
+.reasons-left > :nth-child(1) {
+  width: 12rem;
+  grid-row: 1/3;
+  height: 28rem;
+}
+.reasons-left > :nth-child(2) {
+  width: auto;
+  height: 16rem;
+  grid-column: 2/4;
+}
+.reasons-left > :nth-child(3) {
+  width: 14rem;
+  grid-row: 2;
+  grid-column: 2/3;
+}
+.reasons-left > :nth-child(4) {
+  width: 10rem;
+  grid-row: 2;
+  grid-column: 3/4;
+}
+.reasons-right {
+  flex: 1 1;
+  gap: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+
+.reasons-right > :nth-child(1) {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.reasons-right > :nth-child(2) {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+.reasons-details {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reasons-details > div {
+  display: flex;
+  font-size: 1rem;
+  gap: 1rem;
+}
+
+.reasons-details > div > img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.reasons-partners > span {
+  color: var(--gray);
+}
+
+.reasons-partners > div {
+  display: flex;
+  gap: 1rem;
+}
+
+.reasons-partners > div > img {
+  width: 2.5rem;
+  margin-top: 1rem;
+}
